@@ -1,0 +1,52 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="image-section"></div>
+        <div class="form-section">
+            <div class="form-content">
+                <div class="form-heading">
+                    <p id="welcome-content">Welcome back</p>
+                    <h2>Login to your account</h2>
+                </div>
+                <div class="form-input">
+                    <label for="email">Email</label>
+                    <input class="form-inside-input" type="email" id="email-input" placeholder="John.snow@gmail.com" required>
+                    <label for="password">Password</label>
+                    <input class="form-inside-input" type="password" id="password-input" placeholder="*********" required>
+                    <div class="form-row">
+                        <div class="form-remember-me" >
+                            <input type="radio" name="remember" value="yes">
+                            <label for="remember" id="remember-me">Remember me</label>
+                        </div>
+                        <div id="forget-pass">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" id="login-button">Login now</button>
+                    <button type="submit" id="google-signin-button"><img src="./assests/google-icon.png" alt="">or sign-in with google</button>
+                </div>
+                <div class="form-end-section">
+                    <p id="no-account">Don't have an account? <span id="join-free">Join free today</span></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

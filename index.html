@@ -22,9 +22,15 @@
                 </div>
                 <div class="form-input">
                     <label for="email">Email</label>
-                    <input class="form-inside-input" type="email" id="email-input" placeholder="John.snow@gmail.com" required>
+                    <input class="form-inside-input" type="email" id="email-input"  required>
+                    <div id="email-error-message">
+                        Incorrect Email!
+                    </div>
                     <label for="password">Password</label>
-                    <input class="form-inside-input" type="password" id="password-input" placeholder="*********" required>
+                    <input class="form-inside-input" type="password" id="password-input"  required>
+                    <div id="password-error-message">
+                        Incorrect Password!
+                    </div>
                     <div class="form-row">
                         <div class="form-remember-me" >
                             <input type="radio" name="remember" value="yes">
@@ -36,7 +42,7 @@
                     </div>
                 </div>
                 <div class="form-buttons">
-                    <button type="submit" id="login-button">Login now</button>
+                    <button type="submit" id="login-button" onclick="loginValidate()">Login now</button>
                     <button type="submit" id="google-signin-button"><img src="./assests/google-icon.png" alt="">or sign-in with google</button>
                 </div>
                 <div class="form-end-section">
@@ -47,6 +53,7 @@
         </div>
 
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>

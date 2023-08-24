@@ -129,6 +129,19 @@
     margin-top: 1rem;
   }
 
+  #email-error-message {
+    display: none;
+    color: red;
+    margin-bottom: 5px;
+  }
+
+  #password-error-message {
+    display: none;
+    color: red;
+    margin-bottom: 5px;
+  }
+
+
   #remember-me {
     color: #2D3748;
     font-size: 14px;
